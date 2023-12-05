@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+label{
+   color: #e6e6e6;
+}
+ div.note{
+   color: #e6e6e6;
+ }
+
+form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #111;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-check-input {
+    margin-top: 5px;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    form {
+        margin-top: 20px;
+    }
+}
+
+
+
