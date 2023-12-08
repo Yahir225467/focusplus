@@ -17,16 +17,16 @@ def test_registro_exitoso(browser):
 
     # Completa el formulario
     nombre_input = browser.find_element('id', 'nombre')
-    nombre_input.send_keys('TuNombre')
+    nombre_input.send_keys('Julio Cesar')
 
     apellidos_input = browser.find_element('id', 'apellidos')
-    apellidos_input.send_keys('TusApellidos')
+    apellidos_input.send_keys('Garcia Reyes)
 
     email_input = browser.find_element('id', 'exampleInputEmail1')
-    email_input.send_keys('tucorreo@example.com')
+    email_input.send_keys('jcgr190203@micorreo.upp.edu.mx')
 
     password_input = browser.find_element('id', 'exampleInputPassword1')
-    password_input.send_keys('TuPassword')
+    password_input.send_keys('123456789')
 
     # Selecciona la casilla de verificación
     checkbox = browser.find_element('id', 'exampleCheck1')
