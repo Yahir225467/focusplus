@@ -13,16 +13,16 @@ driver.get('file:///C:/Users/LENOVO/OneDrive/Escritorio/focusplus-main/assets/re
 
 # Completa el formulario
 nombre_input = driver.find_element('id', 'nombre')
-nombre_input.send_keys('TuNombre')
+nombre_input.send_keys('Julio')
 
 apellidos_input = driver.find_element('id', 'apellidos')
-apellidos_input.send_keys('TusApellidos')
+apellidos_input.send_keys('García Reyes')
 
 email_input = driver.find_element('id', 'exampleInputEmail1')
-email_input.send_keys('tucorreo@example.com')
+email_input.send_keys('jcgr190203@micorreo.upp.edu.mx')
 
 password_input = driver.find_element('id', 'exampleInputPassword1')
-password_input.send_keys('TuPassword')
+password_input.send_keys('123456789')
 
 # Selecciona la casilla de verificación
 checkbox = driver.find_element('id', 'exampleCheck1')
